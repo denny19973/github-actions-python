@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone repository
-        rumn: |
-          git clone https://github.com/denny19973/github-actions-python.git
+        run: |
+          git clone https://github.com/denny19973/github-actions-python
           cd github-actions-python
       - name: install pytest
         run: pip install pytest
